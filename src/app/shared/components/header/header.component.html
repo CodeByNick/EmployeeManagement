@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon">
+    <mat-icon>supervised_user_circle</mat-icon>
+  </button>
+    <span>Employee Management System</span>
+    <span class="example-spacer"></span>
+    <!-- <button mat-raised-button color="warn">Add Employee</button> -->
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="openAboutDialog()">
+        <mat-icon>info</mat-icon>
+        <span>About</span>
+      </button>
+    </mat-menu>
+</mat-toolbar>

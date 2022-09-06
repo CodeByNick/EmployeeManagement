@@ -1,0 +1,16 @@
+{
+  "employeeList": [
+    {
+      "firstName": "Nikhil",
+      "lastName": "Rajiwade",
+      "dept": "Engineering",
+      "position": "Web Developer",
+      "address1": "Sai vihar building, Flat no.7 ground floor, Punyai nagar, Dhanyawad Pune-411043",
+      "address2": "Near Teen hatti chowk, Dhankawadi",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "pincode": 411043,
+      "id": 1
+    }
+  ]
+}
